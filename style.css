@@ -87,3 +87,11 @@ form button {
 form button:hover {
   background: #1a365d;
 }
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
