@@ -3,48 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Zumi</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e3a8a;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      margin: 5px 0;
+    }
+
+    .contact {
+      background-color: #f9fafb;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      border: 1px solid #ddd;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .contact button {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background-color: #2563eb;
+    }
+  </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <a href="#home" class="nav-link">Home</a>
-    <a href="#contact" class="nav-link">Contact Us</a>
-  </nav>
+  <header>
+    <a href="#home">Home</a>
+    <a href="#contact">Contact Us</a>
+  </header>
 
-  <!-- Bagian Home -->
-  <section id="home" class="profile">
-    <img src="img/zumi.jpg" alt="Foto Profil" class="profile-img">
-    <h1>Zumi</h1>
-    <p>Lulusan Baru</p>
 
-    <h2>Data Pribadi</h2>
-    <p><b>Tempat, Tanggal Lahir:</b> Tangerang, 23 Maret 2010</p>
-    <p><b>Jenis Kelamin:</b> Laki-laki</p>
-    <p><b>Alamat:</b> Jl. Mawar No. 123</p>
-    <p><b>Agama:</b> Islam</p>
-    <p><b>Kewarganegaraan:</b> Indonesia</p>
-    <p><b>Status:</b> Belum menikah</p>
+  <div class="container" id="home">
+    <a href="<a href="https://ibb.co.com/b5011P35"><img src="https://i.ibb.co.com/b5011P35/IMG-20250908-WA0071.jpg" alt="IMG-20250908-WA0071" border="0"></a>"
+    <h2>Ibra ibam riyadi</h2>
+    <p><em></em></p>
 
-    <h2>Pendidikan</h2>
-    <p>SD Negeri Mawar (2013 - 2019)</p>
-    <p>SMP Negeri Melati (2019 - 2022)</p>
-    <p>SMA Negeri Anggrek (2022 - Sekarang)</p>
+    <div class="section">
+      <h3>Data Pribadi</h3>
+      <p><b>Tempat, Tanggal Lahir:</b> Tangerang, 23 Maret 2010</p>
+      <p><b>Jenis Kelamin:</b> Laki-laki</p>
+      <p><b>Alamat:</b> Jl. Mawar No. 123</p>
+      <p><b>Agama:</b> Islam</p>
+      <p><b>Kewarganegaraan:</b> Indonesia</p>
+      <p><b>Status:</b> Belum menikah</p>
+    </div>
 
-    <h2>Organisasi</h2>
-    <p>Ketua Pramuka SMP</p>
-    <p>Anggota Basket SMA</p>
+    <div class="section">
+      <h3>Pendidikan</h3>
+      <p>SD Negeri Mameri (2013 - 2019)</p>
+      <p>SMP Negeri Melati (2019 - 2022)</p>
+      <p>SMA Negeri 6 KOTA TANGERANG (2024 - Sekarang)</p>
+    </div>
 
-    <h2>Hobi</h2>
-    <p>Basket, Musik, Coding</p>
-  </section>
+    <div class="section">
+      <h3>Organisasi</h3>
+      <p>E-sport mlbb</p>
+      <p></p>
+    </div>
 
-  <!-- Bagian Contact -->
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: zumi@example.com</p>
-    <p>Telepon: 0812-3456-7890</p>
-  </section>
+    <div class="contact" id="contact">
+      <h3>Contact Us</h3>
+      <form>
+        <input type="text" placeholder="Nama Anda" required>
+        <input type="email" placeholder="Email Anda" required>
+        <textarea rows="4" placeholder="Pesan Anda..." required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
