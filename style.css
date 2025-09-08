@@ -1,0 +1,89 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #2b4f81;
+  padding: 10px 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a.active {
+  border-bottom: 2px solid yellow;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Profile */
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+h1 {
+  margin: 10px 0 5px;
+}
+.section {
+  margin-top: 20px;
+}
+.section h2 {
+  color: #2b4f81;
+  margin-bottom: 10px;
+}
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+.section ul li {
+  margin-bottom: 5px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 10px 0 5px;
+}
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #2b4f81;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #1a365d;
+}
