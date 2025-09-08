@@ -3,62 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile - Zumi</title>
+  <title>Profil Zumi</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navbar -->
-  <nav>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
+  <nav class="navbar">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#contact" class="nav-link">Contact Us</a>
   </nav>
 
-  <!-- Profile Section -->
-  <div class="profile">
-  <img src="img/zumi.jpg" alt="Foto Profil" class="profile-img">
-  <h1>Zumi</h1>
-  <p>Lulusan Baru</p>
-  </div>
+  <!-- Bagian Home -->
+  <section id="home" class="profile">
+    <img src="img/zumi.jpg" alt="Foto Profil" class="profile-img">
+    <h1>Zumi</h1>
+    <p>Lulusan Baru</p>
 
-    <div class="section">
-      <h2>Data Pribadi</h2>
-      <ul>
-        <li><b>Tempat, Tanggal Lahir:</b> Tangerang, 23 Maret 2010</li>
-        <li><b>Jenis Kelamin:</b> Laki-laki</li>
-        <li><b>Alamat:</b> Jl. Mawar No. 123</li>
-        <li><b>Agama:</b> Islam</li>
-        <li><b>Kewarganegaraan:</b> Indonesia</li>
-        <li><b>Status:</b> Belum menikah</li>
-      </ul>
-    </div>
+    <h2>Data Pribadi</h2>
+    <p><b>Tempat, Tanggal Lahir:</b> Tangerang, 23 Maret 2010</p>
+    <p><b>Jenis Kelamin:</b> Laki-laki</p>
+    <p><b>Alamat:</b> Jl. Mawar No. 123</p>
+    <p><b>Agama:</b> Islam</p>
+    <p><b>Kewarganegaraan:</b> Indonesia</p>
+    <p><b>Status:</b> Belum menikah</p>
 
-    <div class="section">
-      <h2>Pendidikan</h2>
-      <ul>
-        <li>SD Negeri Mawar (2013 - 2019)</li>
-        <li>SMP Negeri Melati (2019 - 2022)</li>
-        <li>SMA Negeri Anggrek (2022 - Sekarang)</li>
-      </ul>
-    </div>
+    <h2>Pendidikan</h2>
+    <p>SD Negeri Mawar (2013 - 2019)</p>
+    <p>SMP Negeri Melati (2019 - 2022)</p>
+    <p>SMA Negeri Anggrek (2022 - Sekarang)</p>
 
-    <div class="section">
-      <h2>Organisasi</h2>
-      <ul>
-        <li>Ketua Pramuka SMP</li>
-        <li>Anggota Basket SMA</li>
-      </ul>
-    </div>
+    <h2>Organisasi</h2>
+    <p>Ketua Pramuka SMP</p>
+    <p>Anggota Basket SMA</p>
 
-    <div class="section">
-      <h2>Hobi</h2>
-      <ul>
-        <li>Basket</li>
-        <li>Menulis</li>
-        <li>Programming</li>
-      </ul>
-    </div>
-  </div>
+    <h2>Hobi</h2>
+    <p>Basket, Musik, Coding</p>
+  </section>
+
+  <!-- Bagian Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: zumi@example.com</p>
+    <p>Telepon: 0812-3456-7890</p>
+  </section>
 </body>
 </html>
